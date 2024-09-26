@@ -243,6 +243,5 @@ void ArbolAVL<T>::nivelOrden() {
             cola.push(nodoActual->obtenerHijoDer());
         }
     }
-}
-
-#endif 
+};
+#endif // ARBOLAVL_H
